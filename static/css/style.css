@@ -1,0 +1,46 @@
+*{margin: 0;padding: 0;}
+ul li{list-style: none;}
+a{text-decoration: none;}
+.mc{width: 1200px;margin: 0 auto;}
+.l{float: left;}
+.r{float: right;}
+.orange{color: #fd682e;}
+.yellow{color:#F5D60A; }
+
+/*顶部导航*/
+nav{background: #f2f2f2;height: 35px;width: 100%;
+    line-height: 35px;font-size: 13px;
+    border-bottom: 1px solid #dedede;
+}
+nav a{color:#706666; }
+nav i{color:#ccc;}
+nav li{float: left;margin-right: 12px;position: relative;}
+nav li:hover .content{display: block;}
+.content{width:800px;height: 150px;background: #ccc;position: absolute;display: none;}
+
+/*固定导航 右侧*/
+.fixed{background: #383838;width: 35px;height: 100%;
+       position: fixed;top:0;right: 0;
+       font-size: 13px;
+
+}
+.fixed li{text-align: center;line-height: 20px;
+	     padding: 5px 0;margin-bottom: 8px;
+	     position: relative;
+}
+.fixed  i{font-size: 16px;}
+.hr{border-top: 1px solid #6D6E6A;border-bottom: 1px solid #6D6E6A;}
+.block{background:red;display: inline-block;
+       width: 22px;line-height: 14px;text-align: center;
+       border-radius: 5px;
+       color: #fff;
+}
+.fixed li:hover{background:#F5D60A;}
+.fixed li:hover i{color: #fff;}
+.fixed .box{position: absolute;right: 35px;top: 0;
+	height: 100%;background: #F5D60A;
+	width: 70px;line-height: 30px;
+	color: #fff;
+	display: none;
+
+}

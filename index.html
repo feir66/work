@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>苏宁易购(Suning.com)-送货更准时.价格更超值.上新货更快</title>
+	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="static/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+   <nav>
+   	  <div class="mc">
+   	  	<ul class="l">
+   	  		<li><a href="">网站导航</a> <i class="fa fa-angle-down"></i> 
+               <div class="content">
+               	
+               </div>
+   	  		</li>
+   	  		<li><a href="">商家入驻</a> <i class="fa fa-angle-down"></i> </li>
+   	  		<li><a href="">客户服务</a> <i class="fa fa-angle-down"></i> </li>
+   	  		<li>
+   	  			<i class="fa fa-map-marker" style="color: #ffac00;font-size: 18px;"></i>
+   	  			<a href="" style="color: #000">合肥</a> 
+   	  			<i class="fa fa-angle-down"></i> 
+   	  		</li>
+   	  	</ul>
+   	  	<ul class="r">
+   	  		<li><a href="">请登录</a></li>
+   	  		<li><a href="" class="orange">注册有礼</a></li>
+   	  		<li><a href="">我的订单  </a> <i class="fa fa-angle-down"></i></li>
+   	  		<li><a href="">我的易购  </a> <i class="fa fa-angle-down"></i></li>
+   	  		<li><a href="">苏宁会员</a></li>
+   	  		<li>
+   	  			<i class="fa fa-cart-plus" style="color:#FD682E"></i>
+   	  			<a href="" class="orange">  购物车  </a> 
+   	  			<i class="fa fa-angle-down" class="orange"></i>
+   	  		</li>
+  			<li><a href="">易付宝</a></li>
+  			<li><a href="">企业采购</a></li>
+  			<li><a href="">手机苏宁  </a><i class="fa fa-angle-down"></i></li>
+   	  	</ul>
+   	  </div>
+   </nav>
+   <div class="fixed">
+   	  <ul style="margin-top: 180px;">
+   	  	<li><a href=""><i class=" fa fa-user-o yellow" ></i></a></li>
+   	  	<li class="hr">
+   	  		<a href="" style="color: #fff;"><i class="fa fa-cart-plus"></i><br>购<br>物<br>车<br><span class="block">0</span></a>
+   	  	</li>
+   	  	<li>
+   	  		 <a href=""><i class="fa fa-commenting-o yellow"></i></a>
+             <a href="" class="box"> 消息</a>
+   	  	</li>
+   	  </ul>
+   	  <ul style="margin-top: 70px;">
+   	  	<li><a href=""><i class="fa fa-jpy yellow"></i></a>
+   	  		<a href="" class="box"> 理财</a>
+   	  	</li>
+   	  	<li><a href=""><i class="fa fa-clock-o yellow"></i></a>
+   	  		<a href="" class="box"> 理财</a>
+   	  	</li>
+   	  	<li><a href=""><i class="fa fa-commenting-o yellow"></i></a>
+   	  		<a href="" class="box"> 理财</a>
+   	  	</li>
+   	  </ul>
+   	   <ul style="margin-top: 280px;">
+   	  	<li><a href=""><i class="fa fa-volume-control-phone yellow"></i></a>
+          <a href=""  class="box">在线咨询</a>
+   	  	</li>
+   	  	<li><a href=""><i class="fa fa-file-o yellow"></i></a>
+   	  		<a href=""  class="box">在线咨询</a>
+   	  	</li>
+   	  	<li><a href=""><i class="fa fa-minus-square-o  yellow"></i></a>
+   	  	</li>
+   	  	<li><a href=""><i class="fa fa-arrow-circle-up yellow"></i></a>
+   	  		<a href=""  class="box">在线咨询</a>
+   	  	</li>
+   	  </ul>
+   </div>
+   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+   <script type="text/javascript">
+   	  $(function(){
+   	  	// 侧边导航 小导航栏滑出效果
+   	  	$('.fixed li').hover(
+            function(){
+             $(this).find('.box').stop().show(300)
+            },
+            function(){
+              $(this).find('.box').stop().hide()
+            })
+
+   	  	$('.mc li').hover(
+   	  		function(){
+   	  			$(this).find('.fa-angle-down').attr('class','fa fa-angle-up')
+   	  		},
+   	  		function(){
+   	  			$(this).find('.fa-angle-up').attr('class','fa fa-angle-down')
+   	  		}
+   	  		)
+       
+   	  })
+   </script>
+</body>
+</html>
